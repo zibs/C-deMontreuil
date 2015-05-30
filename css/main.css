@@ -88,7 +88,7 @@ textarea {
 
 body {
     width: 90%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 60px auto;
 }
 
 header {
@@ -139,11 +139,20 @@ main {
 }
 
 #phantomanifesto {
-    margin-top: 2vh;
+    /*margin-top: 2vh;*/
     height: 600px;
     max-width: 100%;
+    margin-bottom: 2em;
 }
 
+.footer {
+ position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  
+}
 
 /* ==========================================================================
    Helper classes
