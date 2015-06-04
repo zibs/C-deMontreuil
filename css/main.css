@@ -13,6 +13,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     overflow-x:hidden;
+    overflow-y:hidden;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -139,6 +140,7 @@ a {
 
 a:link {
     text-decoration: none;
+    color:black;
 }
 
 a:visited {
@@ -153,7 +155,9 @@ a:hover {
 
 a:active {
     text-decoration: none;
+    color: black;
 }
+
 
 main {
     display: inline-block;
@@ -171,20 +175,24 @@ main {
     
 
 }
+.lead h1 {
+    display: inline-block;
+    margin: 0;
+}
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    
-    
+  
+}
+.homepage_sidebar li:first-child {
+    /*margin-bottom: 0.25em;*/
 }
 
 .thumbnails {
     text-align: center;
     postion: relative;
     bottom: 4em;
+}
+
+.projects a:last-child { 
 }
 
 /* ==========================================================================
