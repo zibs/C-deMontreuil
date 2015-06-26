@@ -12,8 +12,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -106,6 +106,7 @@ img {
     display: none;
     padding-left: 20px;
 }
+
 .content a {
     display: block;
 }
@@ -113,6 +114,7 @@ img {
 .homepage_sidebar {
     padding-left: 0;
 }
+
 .sidebar {
     padding-left: 0;
     position: absolute;
@@ -121,7 +123,6 @@ img {
 .lead {
     margin-bottom: 2em;
 }
-
 
 ul {
     display: inline-block;
@@ -140,7 +141,7 @@ a {
 
 a:link {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 a:visited {
@@ -158,43 +159,32 @@ a:active {
     color: black;
 }
 
-
 main {
     display: inline-block;
     font-size: 1.1em;
-
 }
 
 #phantomanifesto {
-    
-    
     height: 600px;
     max-width: 100%;
     position: relative;
     bottom: 5em;
-    
-
 }
+
 .lead h1 {
     display: inline-block;
     margin: 0;
 }
-
-  
 }
 .homepage_sidebar li:first-child {
     /*margin-bottom: 0.25em;*/
 }
-
 .thumbnails {
     text-align: center;
     postion: relative;
     bottom: 4em;
 }
-
-.projects a:last-child { 
-}
-
+.projects a:last-child {}
 /* ==========================================================================
    Screen Prop Page
    ========================================================================== */
@@ -210,8 +200,6 @@ main {
     line-height: 1em;
     margin: 0;
 }
-
-
 .screenprop-display {
     height: 3em;
 }
@@ -219,26 +207,10 @@ main {
     height: 70vh;
     margin-top: 1em;
     cursor: pointer;
-
-
 }
-
-
-
-
 /* ==========================================================================
   Water Vessel Still Life
    ========================================================================== */
-
-
-
-    
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== 
@@ -308,7 +280,6 @@ main {
     display: table;
     /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
@@ -322,22 +293,30 @@ main {
     /* Style adjustments for viewports that meet the condition */
 }
 @media only screen and (max-width: 992px) {
+    html {
+        overflow: scroll;
+    }
     #phantomanifesto {
         position: static;
-
+        display: block;
     }
+    
     .sidebar {
         position: static;
+        
     }
+    
     .thumbnails {
-        postion:static;
+        postion: static;
+        margin-top: 5em;
     }
+    
     .details {
         position: static;
+        
     }
     /* Style adjustments for viewports that meet the condition */
 }
-
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
@@ -362,13 +341,16 @@ main {
         box-shadow: none !important;
         text-shadow: none !important;
     }
+    
     a,
     a:visited {
         text-decoration: underline;
     }
+    
     a[href]:after {
         content: " (" attr(href) ")";
     }
+    
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
@@ -381,6 +363,7 @@ main {
     a[href^="javascript:"]:after {
         content: "";
     }
+    
     pre,
     blockquote {
         border: 1px solid #999;
@@ -394,19 +377,23 @@ main {
     thead {
         display: table-header-group;
     }
+    
     tr,
     img {
         page-break-inside: avoid;
     }
+    
     img {
         max-width: 100% !important;
     }
+    
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
+    
     h2,
     h3 {
         page-break-after: avoid;

@@ -1,4 +1,4 @@
- $(function () { $('.expander').simpleexpand(); }); 
+ $(function () { $('.expander').simpleexpand(); }); 	
  
 
 function lightboxer () {
