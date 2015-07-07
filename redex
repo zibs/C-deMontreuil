@@ -1,73 +1,60 @@
+<!-- add footer -->
+
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Catherine de Montreuil</title>
-        <meta name="description" content="">
+        <meta name="description" content="Catherine de Montreuil is a ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="shortcut icon" href= "gfavicon.ico?v=2" /> -->
+         <meta property="og:title" content="Catherine de Montreuil" />
+        <meta property="og:description" content="Catherine de Montreuil " />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://cdemontreuil.com" />
+        <meta property="og:image" content="img/iphone_manifesto.jpg" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/lightbox.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>    
     </head>
     <body>
         <header class="logo">
-            <a href="redex.html"><h1>Catherine de Montreuil</h1></a>
+            <a href="redex"><h1>Catherine de Montreuil</h1></a>
         </header>
         <main class = "homepage container">
             <section class="navigation row">
                 <nav class="side-menu col-md-4">
                     <ul>
-                      <li class="projectbold" id="projects-bar">Projects</li>
-                       <li id ="cv-download-box">
+                      <li id="projects-bar">Projects</li>
+                      <li class ="cv-download-box">
                         <a href="files/CV_cdemontreuil.pdf" target="_blank">CV</a>
                         <a href="files/CV_cdemontreuil.pdf" download><i class="fa fa-cloud-download"></i></a>
                       </li>
                       <li>Contact</li>
                     </ul>
                 </nav>
-            <section class="col-md-6">
+            <section class="projects col-md-6">
                 <ul>
                     <li><a href="scarecrows-steal-soft-sandwiches">Scarecrows Steal Soft Sandwiches</a></li>
-                    <li><a href="#">Screen Prop</a></li>
+                    <li><a href="Screen-Prop">Screen Prop</a></li>
                     <li><a href="Familiar-Dwellings">Familiar Dwellings</a></li>
                     <li><a href="#">Showroom</a></li>
                     <li><a href="#">Proposal For A Sculptural Display Place</a></li>
                 </ul>
             </section>  
-        </section>
-        <section class="row">
-            <article class="details col-md-4">
-            <h3>Water Vessel Still Life</h3>
-            <p>some details about it perhaps?</p>
-            <p>tell meee..</p>
-            <p>what is that materials? </p>
-            <p>some other font</p>
-            </article>
-            <figure class="thumbnails col-md-8">
-                 <a id ="screen-show" href="img/water_vessel_1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/water_vessel_1.jpg" alt="Screen Prop Full Display"></a>
-                 <a href="img/water_vessel_2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/water_vessel_2.jpg" alt="Screen Prop Full Display"></a>
-                 <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/water_vessel_1.jpg" 
-                      alt="Screen Prop Full Display">
-            </figure>
-        </section>
-<section class = "row">
-    <figure class="col-md-7 col-md-offset-3">
-    </figure>
-</section>
-    </main>
-    <footer class="footer">
-        <aside class="container"></aside>
-    </footer>
+            </section>  
+        </main>
+
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/simple-expand.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/lightbox.min.js"></script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

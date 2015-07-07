@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
@@ -15,14 +16,14 @@
     </head>
     <body>
         <header class="logo">
-            <a href="redex.html"><h1>Catherine de Montreuil</h1></a>
+            <a href="redex"><h1>Catherine de Montreuil</h1></a>
         </header>
         <main class = "homepage container">
             <section class="navigation row">
                 <nav class="side-menu col-md-4">
                     <ul>
                       <li class="projectbold" id="projects-bar">Projects</li>
-                       <li id ="cv-download-box">
+                       <li class ="cv-download-box">
                         <a href="files/CV_cdemontreuil.pdf" target="_blank">CV</a>
                         <a href="files/CV_cdemontreuil.pdf" download><i class="fa fa-cloud-download"></i></a>
                       </li>
@@ -32,42 +33,41 @@
             <section class="col-md-6">
                 <ul>
                     <li><a href="scarecrows-steal-soft-sandwiches">Scarecrows Steal Soft Sandwiches</a></li>
-                    <li><a href="#">Screen Prop</a></li>
-                    <li><a href="Familiar-Dwellings">Familiar Dwellings</a></li>
+                    <li><a href="Screen-Prop">Screen Prop</a></li>
+                    <li><a href="#">Familiar Dwellings</a></li>
                     <li><a href="#">Showroom</a></li>
                     <li><a href="#">Proposal For A Sculptural Display Place</a></li>
                 </ul>
             </section>  
-        </section>
+        </section>  
         <section class="row">
-            <article class="details col-md-4">
-            <h3>Water Vessel Still Life</h3>
-            <p>some details about it perhaps?</p>
-            <p>tell meee..</p>
-            <p>what is that materials? </p>
-            <p>some other font</p>
+            <article class="details col-md-3">
+            <h3>Familiar Dwellings</h3>
+            <p>Concourse Gallery - Emily Carr University</p>
+            <p>January 2015</p>
+            <p>Curated by Catherine de Montreuil </p>
+            <p>With works by Catherine de Montreuil, Emma Metcalfe-Hurst, Tommy Chain, Graeme Wahn, William Dege, Ingrid Olauson, Lyndsay Pomerantz and Olivia Meek</p>
             </article>
-            <figure class="thumbnails col-md-8">
-                 <a id ="screen-show" href="img/water_vessel_1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/water_vessel_1.jpg" alt="Screen Prop Full Display"></a>
-                 <a href="img/water_vessel_2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/water_vessel_2.jpg" alt="Screen Prop Full Display"></a>
-                 <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/water_vessel_1.jpg" 
-                      alt="Screen Prop Full Display">
+            <article class="images col-md-9">
+            <figure class="thumbnails">
+                 <a id ="screen-show" href="img/familiar_dwellings_1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_1.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/familiar_dwellings_2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_2.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/familiar_dwellings_3.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_3.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/familiar_dwellings_4.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_4.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/familiar_dwellings_5.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_5.jpg" alt="Screen Prop Full Display"></a>
+                 
             </figure>
+            <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/familiar_dwellings_1.jpg" 
+                      alt="Screen Prop Full Display">
+            </article>
         </section>
-<section class = "row">
-    <figure class="col-md-7 col-md-offset-3">
-    </figure>
-</section>
-    </main>
-    <footer class="footer">
-        <aside class="container"></aside>
-    </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/simple-expand.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/lightbox.min.js"></script>
+        
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;

@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/lightbox.css">
@@ -14,29 +15,32 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-    <header>
-            <section class="lead">
-                <a href="index.html"><h1>Catherine <br> de<br> Montreuil</h1></a>
-            </section>
-    </header>
-    <main class="container">
-        <section class="row">
-            <nav>
-                <ul class ="sidebar col-md-3">
-                    <li><a class ="expander expanded" href="#">Projects</a></li>
-                        <ul class = "content">
-                            <li>
-                                <a class = "expander expanded" href="#">2015</a>
-                                    <ul class="content">
-                                        <a href="Screen-Prop.html"><u>Screen Prop</u></a>
-                                        <a href="Water-Vessel-Still-Life.html">Water Vessel Still Life</a>
-                                        <a href="Familiar-Dwellings.html">Familiar Dwellings</a>
-                                    </ul>
-                            </li>
-                        </ul>
+        <header class="logo">
+            <a href="redex"><h1>Catherine de Montreuil</h1></a>
+        </header>
+        <main class = "homepage container">
+            <section class="navigation row">
+                <nav class="side-menu col-md-4">
+                    <ul>
+                      <li class="projectbold" id="projects-bar">Projects</li>
+                       <li class ="cv-download-box">
+                        <a href="files/CV_cdemontreuil.pdf" target="_blank">CV</a>
+                        <a href="files/CV_cdemontreuil.pdf" download><i class="fa fa-cloud-download"></i></a>
+                      </li>
+                      <li>Contact</li>
+                    </ul>
+                </nav>
+            <section class="col-md-6">
+                <ul>
+                    <li><a href="scarecrows-steal-soft-sandwiches">Scarecrows Steal Soft Sandwiches</a></li>
+                    <li><a href="#">Screen Prop</a></li>
+                    <li><a href="Familiar-Dwellings">Familiar Dwellings</a></li>
+                    <li><a href="#">Showroom</a></li>
+                    <li><a href="#">Proposal For A Sculptural Display Place</a></li>
                 </ul>
-            </nav>
+            </section>  
         </section>
+        
         <section class="row">
             <article class="details col-md-4">
             <h3>Screen Prop</h3>
@@ -54,9 +58,6 @@
             </figure>
         </section>
     </main>
-    <footer class="footer">
-        <aside class="container"></aside>
-    </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

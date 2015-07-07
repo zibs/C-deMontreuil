@@ -13,7 +13,6 @@ html {
     font-size: 1em;
     line-height: 1.4;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -88,13 +87,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'Orator-Slanted';
+    src: url('OratorStd-Slanted.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Obold';
+    src: url('Orator_BoldOblique.ttf') format("truetype")
+}
+
 body {
     width: 85%;
     margin: 3em auto 0 auto;
+    font-family: "Orator-Slanted"
 }
 
 header {
     margin-top: 2em;
+}
+
+.col-md-4 {
+    padding-left: 0;
+}
+
+.homepage {
+    margin-top: 1em;
+}
+
+.navigation {
+    margin-bottom: 2em;
 }
 
 img {
@@ -102,26 +124,32 @@ img {
     height: auto;
 }
 
-.content {
+.projectbold {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 0.5em;
+    transform: skewX(-7deg);
+}
+
+.projects {
     display: none;
-    padding-left: 20px;
 }
 
-.content a {
-    display: block;
+#projects-bar {
+    cursor: pointer;
 }
 
-.homepage_sidebar {
+.fa.fa-cloud-download {
+    display: none;
+}
+.lead h1 {
+    margin-bottom: 1em;
+    font-family: "Orator-Slanted";
+    margin-left: 0;
+    margin-top: 0;
     padding-left: 0;
-}
-
-.sidebar {
-    padding-left: 0;
-    position: absolute;
-}
-
-.lead {
-    margin-bottom: 2em;
 }
 
 ul {
@@ -129,10 +157,12 @@ ul {
     /*background-color: rgba(240,230,140, 0.5);*/
     
     border-radius: 0.5em;
+    padding-left: 0;
 }
 
 li {
     list-style-type: none;
+    margin-left: 0;
 }
 
 a {
@@ -154,6 +184,10 @@ a:hover {
     color: black;
 }
 
+.logo a:hover {
+    text-decoration: none;
+}
+
 a:active {
     text-decoration: none;
     color: black;
@@ -164,27 +198,18 @@ main {
     font-size: 1.1em;
 }
 
-#phantomanifesto {
-    height: 600px;
-    max-width: 100%;
-    position: relative;
-    bottom: 5em;
-}
-
-.lead h1 {
-    display: inline-block;
-    margin: 0;
-}
-}
-.homepage_sidebar li:first-child {
-    /*margin-bottom: 0.25em;*/
-}
 .thumbnails {
     text-align: center;
     postion: relative;
-    bottom: 4em;
+    /*bottom: 4em;*/
 }
-.projects a:last-child {}
+.thumbnails img {
+    height: 2.5em;
+}
+.screenprop-display {
+    /*height: 2em;*/
+}
+
 /* ==========================================================================
    Screen Prop Page
    ========================================================================== */
@@ -195,14 +220,14 @@ main {
     font-size: 0.9em;
     margin-top: 30vh;
 }
+
 .details p {
     padding: 0;
     line-height: 1em;
     margin: 0;
 }
-.screenprop-display {
-    height: 3em;
-}
+
+
 #fullscreen {
     height: 70vh;
     margin-top: 1em;
@@ -280,6 +305,7 @@ main {
     display: table;
     /* 2 */
 }
+
 .clearfix:after {
     clear: both;
 }
@@ -292,6 +318,7 @@ main {
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+
 @media only screen and (max-width: 992px) {
     html {
         overflow: scroll;
@@ -300,23 +327,19 @@ main {
         position: static;
         display: block;
     }
-    
     .sidebar {
         position: static;
-        
     }
-    
     .thumbnails {
         postion: static;
         margin-top: 5em;
     }
-    
     .details {
         position: static;
-        
     }
     /* Style adjustments for viewports that meet the condition */
 }
+
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
@@ -341,16 +364,13 @@ main {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-    
     a,
     a:visited {
         text-decoration: underline;
     }
-    
     a[href]:after {
         content: " (" attr(href) ")";
     }
-    
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
@@ -363,7 +383,6 @@ main {
     a[href^="javascript:"]:after {
         content: "";
     }
-    
     pre,
     blockquote {
         border: 1px solid #999;
@@ -377,23 +396,19 @@ main {
     thead {
         display: table-header-group;
     }
-    
     tr,
     img {
         page-break-inside: avoid;
     }
-    
     img {
         max-width: 100% !important;
     }
-    
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-    
     h2,
     h3 {
         page-break-after: avoid;

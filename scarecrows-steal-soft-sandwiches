@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Catherine de Montreuil</title>
+        <title>Scarecrows Steal Soft Sandwiches</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -32,9 +32,9 @@
                 </nav>
             <section class="col-md-6">
                 <ul>
-                    <li><a href="scarecrows-steal-soft-sandwiches">Scarecrows Steal Soft Sandwiches</a></li>
+                    <li><a href="#">Scarecrows Steal Soft Sandwiches</a></li>
                     <li><a href="Screen-Prop">Screen Prop</a></li>
-                    <li><a href="#">Familiar Dwellings</a></li>
+                    <li><a href="Familiar-Dwellings">Familiar Dwellings</a></li>
                     <li><a href="#">Showroom</a></li>
                     <li><a href="#">Proposal For A Sculptural Display Place</a></li>
                 </ul>
@@ -48,15 +48,23 @@
             <p>Curated by Catherine de Montreuil </p>
             <p>With works by Catherine de Montreuil, Emma Metcalfe-Hurst, Tommy Chain, Graeme Wahn, William Dege, Ingrid Olauson, Lyndsay Pomerantz and Olivia Meek</p>
             </article>
-            <figure class="thumbnails col-md-9">
-                 <a id ="screen-show" href="img/familiar_dwellings_1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_1.jpg" alt="Screen Prop Full Display"></a>
-                 <a href="img/familiar_dwellings_2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_2.jpg" alt="Screen Prop Full Display"></a>
-                 <a id ="screen-show" href="img/familiar_dwellings_3.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_3.jpg" alt="Screen Prop Full Display"></a>
-                 <a href="img/familiar_dwellings_4.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_4.jpg" alt="Screen Prop Full Display"></a>
-                 <a id ="screen-show" href="img/familiar_dwellings_5.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_5.jpg" alt="Screen Prop Full Display"></a>
-                 <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/familiar_dwellings_1.jpg" 
-                      alt="Screen Prop Full Display">
+            <article class="images col-md-9">
+            <figure class="thumbnails">
+                  <a id ="screen-show" href="img/scarecrows-install1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install1.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install2.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install3.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install3.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install4.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install4.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install5.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install5.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install6.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install6.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install7.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install7.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install8.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install8.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install9.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/scarecrows-install9.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-instal10.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-instal10.jpg" alt="Screen Prop Full Display"></a>
+                 <a href="img/scarecrows-install11.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/spry-scarecrows-install11.jpg" alt="Screen Prop Full Display"></a>
             </figure>
+               <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/scarecrows-install1.jpg" 
+                      alt="Screen Prop Full Display">
+            </article>
         </section>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -64,7 +72,6 @@
         <script src="js/simple-expand.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/lightbox.min.js"></script>
-        
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
