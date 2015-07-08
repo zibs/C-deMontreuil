@@ -20,7 +20,7 @@
         </header>
         <main class = "homepage container">
             <section class="navigation row">
-                <nav class="side-menu col-md-4">
+                <nav class="side-menu col-md-4 col-sm-4">
                     <ul>
                       <li class="projectbold" id="projects-bar">Projects</li>
                        <li class ="cv-download-box">
@@ -30,25 +30,25 @@
                       <li>Contact</li>
                     </ul>
                 </nav>
-            <section class="col-md-6">
+            <section class="col-md-6 col-md-offset-1 col-sm-7">
                 <ul>
                     <li><a href="scarecrows-steal-soft-sandwiches">Scarecrows Steal Soft Sandwiches</a></li>
                     <li><a href="Screen-Prop">Screen Prop</a></li>
-                    <li><a href="#">Familiar Dwellings</a></li>
+                    <li><a id = "familiar-link" href="#">Familiar Dwellings</a></li>
                     <li><a href="#">Showroom</a></li>
                     <li><a href="#">Proposal For A Sculptural Display Place</a></li>
                 </ul>
             </section>  
         </section>  
         <section class="row">
-            <article class="details col-md-3">
+            <article class="details col-md-2">
             <h3>Familiar Dwellings</h3>
-            <p>Concourse Gallery - Emily Carr University</p>
+            <h5>Concourse Gallery - Emily Carr University</h5>
             <p>January 2015</p>
             <p>Curated by Catherine de Montreuil </p>
             <p>With works by Catherine de Montreuil, Emma Metcalfe-Hurst, Tommy Chain, Graeme Wahn, William Dege, Ingrid Olauson, Lyndsay Pomerantz and Olivia Meek</p>
             </article>
-            <article class="images col-md-9">
+            <article class="images col-md-9 col-sm-11 col-md-offset-1">
             <figure class="thumbnails">
                  <a id ="screen-show" href="img/familiar_dwellings_1.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_1.jpg" alt="Screen Prop Full Display"></a>
                  <a href="img/familiar_dwellings_2.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_2.jpg" alt="Screen Prop Full Display"></a>
@@ -57,7 +57,7 @@
                  <a href="img/familiar_dwellings_5.jpg" data-lightbox="screenprop"><img class="screenprop-display" src="img/familiar_dwellings_5.jpg" alt="Screen Prop Full Display"></a>
                  
             </figure>
-            <img class ="center-block" onclick ="lightboxer()" id ="fullscreen" src="img/familiar_dwellings_1.jpg" 
+            <img class ="center-block img-responsive" onclick ="lightboxer()" id ="fullscreen" src="img/familiar_dwellings_1.jpg" 
                       alt="Screen Prop Full Display">
             </article>
         </section>

@@ -99,12 +99,12 @@ textarea {
 
 body {
     width: 85%;
-    margin: 3em auto 0 auto;
+    margin: 1em auto 0 auto;
     font-family: "Orator-Slanted"
 }
 
 header {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .col-md-4 {
@@ -116,7 +116,7 @@ header {
 }
 
 .navigation {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 img {
@@ -144,6 +144,7 @@ img {
 .fa.fa-cloud-download {
     display: none;
 }
+
 .lead h1 {
     margin-bottom: 1em;
     font-family: "Orator-Slanted";
@@ -166,12 +167,22 @@ li {
 }
 
 a {
-    color: black;
+    /*color: black;*/
 }
 
 a:link {
     text-decoration: none;
     color: black;
+}
+
+#scarecrows {
+    border-bottom: 2px solid #FFE800;
+}
+#screenprop-link {
+    border-bottom: 2px solid #FF766F
+}
+#familiar-link {
+    border-bottom: 2px solid #5CB5E5;
 }
 
 a:visited {
@@ -203,13 +214,14 @@ main {
     postion: relative;
     /*bottom: 4em;*/
 }
+
 .thumbnails img {
     height: 2.5em;
 }
+
 .screenprop-display {
     /*height: 2em;*/
 }
-
 /* ==========================================================================
    Screen Prop Page
    ========================================================================== */
@@ -218,18 +230,18 @@ main {
     display: inline;
     padding-left: 0;
     font-size: 0.9em;
-    margin-top: 30vh;
+    margin-top: 25vh;
 }
 
 .details p {
     padding: 0;
     line-height: 1em;
-    margin: 0;
+    margin-bottom: 0.5em;
 }
 
-
 #fullscreen {
-    height: 70vh;
+    /*max height maybe?*/
+    max-height: 525px;
     margin-top: 1em;
     cursor: pointer;
 }
@@ -323,23 +335,23 @@ main {
     html {
         overflow: scroll;
     }
-    #phantomanifesto {
-        position: static;
-        display: block;
-    }
-    .sidebar {
-        position: static;
-    }
+  
     .thumbnails {
         postion: static;
-        margin-top: 5em;
+        margin-top: 2em;
     }
-    .details {
-        position: static;
-    }
+    
     /* Style adjustments for viewports that meet the condition */
 }
 
+
+@media only screen and (max-width: 768px) {
+    #fullscreen {
+        
+    }
+
+
+}
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
