@@ -224,6 +224,7 @@ main {
 .thumbnails {
     text-align: center;
     postion: relative;
+    padding-right: 4em;
     /*bottom: 4em;*/
 }
 
@@ -233,6 +234,9 @@ main {
 
 .screenprop-display {
     /*height: 2em;*/
+}
+.content-nest {
+    padding-bottom: 3em;
 }
 /* ==========================================================================
    Screen Prop Page
