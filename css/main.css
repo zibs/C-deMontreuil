@@ -131,6 +131,8 @@ img {
     padding-bottom: 0;
     padding-right: 0.5em;
     transform: skewX(-7deg);
+    -moz-transform: skewX(-7deg);
+    -webkit-transform:skewX(-7deg);
 }
 
 .projects {
@@ -178,11 +180,21 @@ a:link {
 #scarecrows {
     border-bottom: 2px solid #FFE800;
 }
+#scarecrows:hover {
+    text-decoration: none;
+}
 #screenprop-link {
     border-bottom: 2px solid #FF766F
 }
+
+#screenprop-link:hover {
+    text-decoration: none;
+}
 #familiar-link {
     border-bottom: 2px solid #5CB5E5;
+}
+#familiar-link:hover{
+    text-decoration: none;
 }
 
 a:visited {
@@ -243,6 +255,7 @@ main {
     /*max height maybe?*/
     max-height: 525px;
     margin-top: 1em;
+    padding-right: 4em;
     cursor: pointer;
 }
 /* ==========================================================================
