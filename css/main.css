@@ -132,7 +132,7 @@ img {
     padding-right: 0.5em;
     transform: skewX(-7deg);
     -moz-transform: skewX(-7deg);
-    -webkit-transform:skewX(-7deg);
+    -webkit-transform: skewX(-7deg);
 }
 
 .projects {
@@ -180,9 +180,11 @@ a:link {
 #scarecrows {
     border-bottom: 2px solid #FFE800;
 }
+
 #scarecrows:hover {
     text-decoration: none;
 }
+
 #screenprop-link {
     border-bottom: 2px solid #FF766F
 }
@@ -190,10 +192,12 @@ a:link {
 #screenprop-link:hover {
     text-decoration: none;
 }
+
 #familiar-link {
     border-bottom: 2px solid #5CB5E5;
 }
-#familiar-link:hover{
+
+#familiar-link:hover {
     text-decoration: none;
 }
 
@@ -224,17 +228,19 @@ main {
 .thumbnails {
     text-align: center;
     postion: relative;
-    padding-right: 4em;
+    /*padding-right: 4em;*/
     /*bottom: 4em;*/
 }
 
 .thumbnails img {
     height: 2.5em;
+    cursor: pointer;
 }
 
 .screenprop-display {
     /*height: 2em;*/
 }
+
 .content-nest {
     padding-bottom: 3em;
 }
@@ -255,13 +261,61 @@ main {
     margin-bottom: 0.5em;
 }
 
-#fullscreen {
-    /*max height maybe?*/
+.feature-image {
     max-height: 525px;
     margin-top: 1em;
-    padding-right: 4em;
-    cursor: pointer;
+
 }
+
+#fullscreen {
+    max-height: 525px;
+    margin-top: 1em;
+}
+
+.prev,
+.next {
+    position: fixed;
+    bottom: 0;
+    width: 10%;
+    /*filter: alpha(opacity=0);*/
+    height: 100%;
+    cursor: pointer;    
+    background-color: yellow;
+    padding: none;
+    margin: none;
+
+
+}
+
+.prev {
+    height: 90%;
+    right: 0%;
+    display: none;
+    opacity: 0.6;
+    background: url(../img/prev.png)50% 50% no-repeat;
+    
+
+    
+}
+
+.next {
+    height: 90%;
+    right: 0%;
+    display: none;
+    opacity: 0.6;
+    background: url(../img/next.png) 50% 50% no-repeat;
+    }
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
 /* ==========================================================================
   Water Vessel Still Life
    ========================================================================== */
@@ -352,23 +406,17 @@ main {
     html {
         overflow: scroll;
     }
-  
     .thumbnails {
         postion: static;
         margin-top: 2em;
     }
-    
     /* Style adjustments for viewports that meet the condition */
 }
 
-
 @media only screen and (max-width: 768px) {
-    #fullscreen {
-        
-    }
-
-
+    #fullscreen {}
 }
+
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
