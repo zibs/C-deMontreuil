@@ -129,24 +129,41 @@ img {
     height: auto;
 }
 
-.projectbold {
-    background-color: black;
-    color: white;
-    margin-bottom: 0;
-    padding-bottom: 0;
+/***************************************
+NAVIGATIONNAVIGATION
+****************************************/
+ul {
+    display: inline-block;
+    border-radius: 0.5em;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/**/
+
+#projects-bar {
+    display: inline-block;
+    cursor: pointer;
     padding-right: 0.5em;
-    transform: skewX(-7deg);
-    -moz-transform: skewX(-7deg);
-    -webkit-transform: skewX(-7deg);
 }
 
 .projects {
     display: none;
 }
 
-#projects-bar {
-    cursor: pointer;
+.boldskew {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
 }
+
 
 .fa.fa-cloud-download {
     display: none;
@@ -162,8 +179,6 @@ img {
 
 ul {
     display: inline-block;
-    /*background-color: rgba(240,230,140, 0.5);*/
-    
     border-radius: 0.5em;
     padding-left: 0;
 }
@@ -171,6 +186,25 @@ ul {
 li {
     list-style-type: none;
     margin-left: 0;
+}
+
+.side-menu ul li:last-child {
+    display: inline-block;
+}
+
+#contact-slide {
+    cursor: pointer;
+}
+
+#contact-info {
+    display: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-right: 0.5em;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
 }
 
 a {

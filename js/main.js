@@ -1,7 +1,7 @@
 $(document).ready(function () {
    $("#projects-bar").click(function () {
     $(".projects").fadeToggle(1000);
-    $("#projects-bar").toggleClass("projectbold");
+    $("#projects-bar").toggleClass("boldskew");
 	});
 });
 
@@ -28,6 +28,14 @@ $(document).ready(function() {
 	});
 });
 
+// CONTACT SLIDE 
+$(document).ready(function() {
+	$("#contact-slide").click(function(){
+		$("#contact-info").fadeToggle(500);
+		$("#contact-info").css({"display":"inline-block"});
+	});
+});
+// SLIDER THUMBNAILS
 
 function nextImage() {
 
