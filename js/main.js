@@ -20,6 +20,15 @@ $(".thumbnails img").click(function() {
 	});
 });
 
+// FURTHER DETAILS 
+
+$(document).ready(function() {
+	$(".fa-caret-down").click(function() {
+		$(".further-details").stop(true, true).fadeToggle(1000)
+	});
+});
+
+
 function nextImage() {
 
 					var current_image 			 = $("#fullscreen").attr("src");
@@ -44,7 +53,7 @@ function nextImage() {
 
 					if (next_image_thumbnail.prev().length) {
 						$(".prev").css({"left":+left_edge_icon+"px"});
-						var real_left_edge = left_edge_icon - ($(".prev").width()) - 12;
+						var real_left_edge = left_edge_icon - ($(".prev").width()) - 22;
 						$(".prev").css({"left":+real_left_edge+"px"});
 						$(".prev").stop(true, true).fadeIn(1000);
 					}
@@ -64,7 +73,7 @@ function prevImage() {
 
 					if (prev_image_thumbnail.prev().length) {
 						$(".prev").css({"left":+left_edge_icon+"px"});
-						var real_left_edge = left_edge_icon - ($(".prev").width()) - 12;
+						var real_left_edge = left_edge_icon - ($(".prev").width()) - 22;
 						$(".prev").css({"left":+real_left_edge+"px"});
 						$(".prev").stop(true, true).fadeIn(400);
 
@@ -78,14 +87,13 @@ function prevImage() {
 }
 
 $(document).ready(function() {
-
+	// upon hovering into image area
 	$(".feature-image").mouseenter(function () {
+		// set image + sizes
 		var current_image 			 = $("#fullscreen").attr("src");
 		var current_image_thumbnail  = $('.thumbnails img[src="'+current_image+'"]');
-
-		var left_edge_icon  = $(".feature-image img").offset().left;
-
-		var right_edge_icon = $(".feature-image img").width() + $(".feature-image img").offset().left;
+		var left_edge_icon			 = $(".feature-image img").offset().left;
+		var right_edge_icon 		 = $(".feature-image img").width() + $(".feature-image img").offset().left;
 
 		// NEXT
 		if ($(current_image_thumbnail).next().length) {
@@ -97,7 +105,7 @@ $(document).ready(function() {
 		// PREV
 		if ($(current_image_thumbnail).prev().length) {
 			$(".prev").css({"left":+left_edge_icon+"px"});
-			var real_left_edge = left_edge_icon - ($(".prev").width()) - 12 ;
+			var real_left_edge = left_edge_icon - ($(".prev").width()) - 22 ;
 			$(".prev").css({"left":+real_left_edge+"px"});
 			$(".prev").stop(true, true).fadeIn(500);
 		} 

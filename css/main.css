@@ -94,7 +94,12 @@ textarea {
 
 @font-face {
     font-family: 'Obold';
-    src: url('Orator_BoldOblique.ttf') format("truetype")
+    src: url('Orator_BoldOblique.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Orator-Medium";
+    src: url('OratorStd.otf') format("truetype");
 }
 
 body {
@@ -225,6 +230,54 @@ main {
     font-size: 1.1em;
 }
 
+/***************************************
+DETAILSDETAILSDETAILS
+****************************************/
+
+.content-nest {
+    padding-bottom: 3em;
+}
+
+
+.details {
+    display: inline;
+    padding-left: 0;
+    font-size: 0.9em;
+    margin-top: 0vh;
+}
+
+.details {
+    font-family: "Orator-Medium";
+    padding: 0;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.fa-caret-down {
+    color: grey;
+    font-size: 0.9em;
+}
+
+.fa-caret-down:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.further-details {
+    display: none;
+    /*text-indent: */
+}
+#imaginaricons {
+    text-align: justify;
+}
+/***************************************
+IMAGESIMAGESIMAGES
+****************************************/
+
+
+
+
+
 .thumbnails {
     text-align: center;
     postion: relative;
@@ -237,34 +290,9 @@ main {
     cursor: pointer;
 }
 
-.screenprop-display {
-    /*height: 2em;*/
-}
-
-.content-nest {
-    padding-bottom: 3em;
-}
-/* ==========================================================================
-   Screen Prop Page
-   ========================================================================== */
-
-.details {
-    display: inline;
-    padding-left: 0;
-    font-size: 0.9em;
-    margin-top: 25vh;
-}
-
-.details p {
-    padding: 0;
-    line-height: 1em;
-    margin-bottom: 0.5em;
-}
-
 .feature-image {
     max-height: 525px;
     margin-top: 1em;
-
 }
 
 #fullscreen {
@@ -278,33 +306,32 @@ main {
     bottom: 0;
     width: 10%;
     /*filter: alpha(opacity=0);*/
+    
     height: 100%;
-    cursor: pointer;    
+    cursor: pointer;
     background-color: yellow;
     padding: none;
     margin: none;
-
-
 }
 
 .prev {
-    height: 90%;
+    height: 80%;
     right: 0%;
     display: none;
     opacity: 0.6;
     background: url(../img/prev.png)50% 50% no-repeat;
-    
-
-    
 }
 
 .next {
-    height: 90%;
+    height: 80%;
     right: 0%;
     display: none;
     opacity: 0.6;
     background: url(../img/next.png) 50% 50% no-repeat;
-    }
+}
+
+
+
 
 .noSelect {
     -webkit-touch-callout: none;
@@ -313,12 +340,6 @@ main {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-
-/* ==========================================================================
-  Water Vessel Still Life
-   ========================================================================== */
 /* ==========================================================================
    Helper classes
    ========================================================================== 
@@ -409,6 +430,7 @@ main {
     .thumbnails {
         postion: static;
         margin-top: 2em;
+        margin-bottom: 1em;
     }
     /* Style adjustments for viewports that meet the condition */
 }
