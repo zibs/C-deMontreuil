@@ -2,6 +2,7 @@ $(document).ready(function () {
    $("#projects-bar").click(function () {
     $(".projects").fadeToggle(1000);
     $("#projects-bar").toggleClass("boldskew");
+    $("#contact-info").fadeOut("slow");
 	});
 });
 
