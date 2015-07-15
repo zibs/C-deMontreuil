@@ -343,7 +343,7 @@ IMAGESIMAGESIMAGES
     
     height: 100%;
     cursor: pointer;
-    background-color: yellow;
+    /*background-color: yellow;*/
     padding: none;
     margin: none;
 }
