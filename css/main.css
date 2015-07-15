@@ -240,6 +240,7 @@ a:link {
     text-decoration: none;
 }
 
+
 a:visited {
     text-decoration: none;
     color: black;
@@ -272,7 +273,6 @@ DETAILSDETAILSDETAILS
     padding-bottom: 3em;
 }
 
-
 .details {
     display: inline;
     padding-left: 0;
@@ -293,14 +293,14 @@ DETAILSDETAILSDETAILS
 }
 
 .fa-caret-down:hover {
-    color: black;
-    cursor: pointer;
+    /*color: black;*/
+    /*cursor: pointer;*/
 }
 
-.further-details {
-    display: none;
+/*.further-details {*/
+    /*display: none;*/
     /*text-indent: */
-}
+/*}*/
 #imaginaricons {
     text-align: justify;
 }

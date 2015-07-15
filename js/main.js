@@ -23,11 +23,11 @@ $(".thumbnails img").click(function() {
 
 // FURTHER DETAILS 
 
-$(document).ready(function() {
-	$(".fa-caret-down").click(function() {
-		$(".further-details").stop(true, true).fadeToggle(1000)
-	});
-});
+// $(document).ready(function() {
+	// $(".fa-caret-down").click(function() {
+		// $(".further-details").stop(true, true).fadeToggle(1000)
+	// });
+// });
 
 // CONTACT SLIDE 
 $(document).ready(function() {
