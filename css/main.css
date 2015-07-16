@@ -96,6 +96,10 @@ textarea {
     font-family: 'Obold';
     src: url('Orator_BoldOblique.ttf') format("truetype");
 }
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway-Regular.ttf") format("truetype");
+}
 
 @font-face {
     font-family: "Orator-Medium";
@@ -281,11 +285,12 @@ DETAILSDETAILSDETAILS
     display: inline;
     padding-left: 0;
     font-size: 0.9em;
+    letter-spacing: 1px;
     margin-top: 0vh;
 }
 
 .details {
-    font-family: "Orator-Medium";
+    font-family: "Raleway";
     padding: 0;
     line-height: 1.2em;
     margin-bottom: 0.5em;
