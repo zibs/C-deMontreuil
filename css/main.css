@@ -243,7 +243,7 @@ a:link {
 }
 
 #proposal {
-    border-bottom: 2px solid #FF0F0F;
+    border-bottom: 2px solid #898989;
 }
 
 #proposal:hover {
@@ -284,16 +284,18 @@ DETAILSDETAILSDETAILS
 .details {
     display: inline;
     padding-left: 0;
-    font-size: 0.9em;
+    font-size: 0.85em;
     letter-spacing: 1px;
     margin-top: 0vh;
-}
-
-.details {
     font-family: "Raleway";
     padding: 0;
+    text-align: justify;
     line-height: 1.2em;
     margin-bottom: 0.5em;
+}
+
+.details h4 {
+    font-family: "Orator-Slanted"
 }
 
 .fa-caret-down {
