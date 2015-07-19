@@ -92,18 +92,17 @@ textarea {
     src: url('OratorStd-Slanted.otf') format("opentype");
 }
 
-@font-face {
-    font-family: 'Obold';
-    src: url('Orator_BoldOblique.ttf') format("truetype");
-}
+
 @font-face {
     font-family: "Raleway";
     src: url("Raleway-Regular.ttf") format("truetype");
 }
 
+
+
 @font-face {
-    font-family: "Orator-Medium";
-    src: url('OratorStd.otf') format("truetype");
+    font-family: "HelveticaLight";
+    src: url('Helvetica-Light.ttf') format("truetype");
 }
 
 body {
@@ -250,6 +249,15 @@ a:link {
     text-decoration: none;
 }
 
+
+#showroom {
+    border-bottom: 2px solid #A55A1A;
+}
+#proposal:hover {
+    text-decoration: none;
+}
+
+
 a:visited {
     text-decoration: none;
     color: black;
@@ -284,10 +292,10 @@ DETAILSDETAILSDETAILS
 .details {
     display: inline;
     padding-left: 0;
-    font-size: 0.85em;
+    font-size: 0.9em;
     letter-spacing: 1px;
     margin-top: 0vh;
-    font-family: "Raleway";
+    font-family: "HelveticaLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     padding: 0;
     text-align: justify;
     line-height: 1.2em;
@@ -298,6 +306,12 @@ DETAILSDETAILSDETAILS
     font-family: "Orator-Slanted"
 }
 
+.details pre {
+    background-color: white;
+    border: none;
+    word-wrap: break-word;
+    font-family: "HelveticaLight";
+}
 .fa-caret-down {
     color: grey;
     font-size: 0.9em;
@@ -319,6 +333,9 @@ DETAILSDETAILSDETAILS
 IMAGESIMAGESIMAGES
 ****************************************/
 
+.images {
+    padding-left: 2.5em;
+}
 .thumbnails {
     text-align: center;
     postion: relative;
@@ -545,4 +562,4 @@ IMAGESIMAGESIMAGES
         h3 {
             page-break-after: avoid;
         }
-    }
+    /*}*/
