@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@font-face {
+/*@font-face {
     font-family: 'Orator-Slanted';
     src: url('OratorStd-Slanted.otf') format("opentype");
 }
@@ -101,12 +101,12 @@ textarea {
 @font-face {
     font-family: "HelveticaLight";
     src: url('Helvetica-Light.ttf') format("truetype");
-}
+}*/
 
 body {
     width: 85%;
     margin: 1em auto 0 auto;
-    font-family: "Orator-Slanted"
+    font-family: "Helvetica";
 }
 
 header {
@@ -170,7 +170,7 @@ li {
 
 .lead h1 {
     margin-bottom: 1em;
-    font-family: "Orator-Slanted";
+    font-family: "Helvetica";
     margin-left: 0;
     margin-top: 0;
     padding-left: 0;
@@ -277,7 +277,7 @@ a:active {
 
 main {
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 /***************************************
 DETAILSDETAILSDETAILS
@@ -293,7 +293,7 @@ DETAILSDETAILSDETAILS
     font-size: 0.8em;
     letter-spacing: 1px;
     margin-top: 0vh;
-    font-family: "HelveticaLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Helvetica", sans-serif;
     padding: 0;
     text-align: justify;
     line-height: 1.2em;
@@ -301,14 +301,14 @@ DETAILSDETAILSDETAILS
 }
 
 .details h3 {
-    font-family: "Orator-Slanted"
+    font-family: "Helvetica";
 }
 
 .details pre {
     background-color: white;
     border: none;
     word-wrap: break-word;
-    font-family: "HelveticaLight";
+    font-family: "Helvetica";
 }
 .fa-caret-down {
     color: grey;
@@ -362,11 +362,10 @@ IMAGESIMAGESIMAGES
     bottom: 0;
     width: 10%;
     /*filter: alpha(opacity=0);*/
-    
     height: 100%;
     cursor: pointer;
     /*background-color: yellow;*/
-    
+
     padding: none;
     margin: none;
 }
@@ -396,12 +395,12 @@ IMAGESIMAGESIMAGES
     user-select: none;
     /* ==========================================================================
    Helper classes
-   ========================================================================== 
+   ==========================================================================
 /*
  * Hide visually and from screen readers:
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
-    
+
     .hidden {
         display: none !important;
         visibility: hidden;
@@ -410,7 +409,7 @@ IMAGESIMAGESIMAGES
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-    
+
     .visuallyhidden {
         border: 0;
         clip: rect(0 0 0 0);
@@ -426,7 +425,7 @@ IMAGESIMAGESIMAGES
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-    
+
     .visuallyhidden.focusable:active,
     .visuallyhidden.focusable:focus {
         clip: auto;
@@ -439,7 +438,7 @@ IMAGESIMAGESIMAGES
     /*
  * Hide visually and from screen readers, but maintain layout
  */
-    
+
     .invisible {
         visibility: hidden;
     }
@@ -454,12 +453,12 @@ IMAGESIMAGESIMAGES
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-    
+
     .clearfix:before,
     .clearfix:after {
         content: " ";
         /* 1 */
-        
+
         display: table;
         /* 2 */
     }
@@ -471,7 +470,7 @@ IMAGESIMAGESIMAGES
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-    
+
     @media only screen and (min-width: 35em) {
         /* Style adjustments for viewports that meet the condition */
     }
@@ -500,14 +499,14 @@ IMAGESIMAGESIMAGES
    Inlined to avoid the additional HTTP request:
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-    
+
     @media print {
         *, *:before, *:after {
             background: transparent !important;
             color: #000 !important;
             /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-            
+
             box-shadow: none !important;
             text-shadow: none !important;
         }
@@ -525,7 +524,7 @@ IMAGESIMAGESIMAGES
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-        
+
         a[href^="#"]:after,
         a[href^="javascript:"]:after {
             content: "";
@@ -539,7 +538,7 @@ IMAGESIMAGESIMAGES
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-        
+
         thead {
             display: table-header-group;
         }
