@@ -263,6 +263,43 @@ a:link {
   text-decoration: none;
 }
 
+
+#convictions {
+    border-bottom: 2px solid #c4c4c4;
+}
+
+#convictions:hover {
+    text-decoration: none;
+}
+#issue {
+    border-bottom: 2px solid #ff0091;
+}
+
+#issue:hover {
+    text-decoration: none;
+}
+#ithot {
+    border-bottom: 2px solid #ffa3d5;
+}
+
+#ithot:hover {
+    text-decoration: none;
+}
+#thinking {
+    border-bottom: 2px solid #a5b7de;
+}
+
+#thinking:hover {
+    text-decoration: none;
+}
+#library {
+    border-bottom: 2px solid #61ff00;
+}
+
+#library:hover {
+    text-decoration: none;
+}
+
 a:visited {
     text-decoration: none;
     color: black;
