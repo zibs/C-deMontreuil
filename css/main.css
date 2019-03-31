@@ -106,7 +106,8 @@ textarea {
 body {
     width: 85%;
     margin: 1em auto 0 auto;
-    font-family: "Helvetica";
+    font-family: "Garamond", "Helvetica";
+    background-color: #F1F1F1;
 }
 
 header {
@@ -170,7 +171,7 @@ li {
 
 .lead h1 {
     margin-bottom: 1em;
-    font-family: "Helvetica";
+    font-family: "Garamond", "Helvetica";
     margin-left: 0;
     margin-top: 0;
     padding-left: 0;
@@ -299,6 +300,24 @@ a:link {
 #library:hover {
     text-decoration: none;
 }
+#watchi {
+    border-bottom: 2px solid #61ff00;
+}
+
+#watchi:hover {
+    text-decoration: none;
+}
+#words {
+    border-bottom: 2px solid #61ff00;
+}
+
+#words:hover {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
 
 a:visited {
     text-decoration: none;
@@ -337,22 +356,22 @@ DETAILSDETAILSDETAILS
     font-size: 0.8em;
     letter-spacing: 1px;
     margin-top: 0vh;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Garamond", "Helvetica" sans-serif;
     padding: 0;
-    text-align: justify;
+    /* text-align: justify; */
     line-height: 1.2em;
     margin-bottom: 0.5em;
 }
 
 .details h3 {
-    font-family: "Helvetica";
+    font-family: "Garamond", "Helvetica";
 }
 
 .details pre {
     background-color: white;
     border: none;
     word-wrap: break-word;
-    font-family: "Helvetica";
+    font-family: "Garamond", "Helvetica";
 }
 .fa-caret-down {
     color: grey;
@@ -369,7 +388,7 @@ DETAILSDETAILSDETAILS
 /*}*/
 
 #imaginaricons {
-    text-align: justify;
+    /* text-align: justify; */
 }
 /***************************************
 IMAGESIMAGESIMAGES
